@@ -1,11 +1,14 @@
 // Convert the below string to make use of teplate literals
 
 function string() {
-    return 'Marry had a little lamb';
+
+    let name = 'Marry';
+    let phrase = ' had a little lamb';
+    return `${name + phrase}`;
 }
 
 
-
+console.log(string());
 
 
 
