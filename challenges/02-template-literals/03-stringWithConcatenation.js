@@ -4,7 +4,7 @@
 const stringWithConcatenation = _ => {
     const FIRST_NAME = 'Inigo';
     const LAST_NAME = 'Montoya';
-    return 'Hello! My name is ' + FIRST_NAME + ' ' + LAST_NAME + '! You killed my father.  Prepare to die!';
+    return `Hello! My name is ${FIRST_NAME} ${LAST_NAME}! You killed my father.  Prepare to die!`;
 };
 
 
