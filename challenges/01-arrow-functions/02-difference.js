@@ -4,7 +4,9 @@
     return a - b;
 }*/
 
-const difference = (a,b) => a-b;
+const difference = (a,b) => {
+    return a-b;
+};
 
 // passed test
 
