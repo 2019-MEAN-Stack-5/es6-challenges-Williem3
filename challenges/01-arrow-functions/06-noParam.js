@@ -3,9 +3,16 @@
 // you should use the empty () syntax of _ syntax.
 
 
-function noParam() {
+/*function noParam() {
 
-}
+}*/
+
+const noParam = () => {
+    let x = "Blame";
+    let y = "Alcohol";
+
+    return x+y;
+};
 
 
 
